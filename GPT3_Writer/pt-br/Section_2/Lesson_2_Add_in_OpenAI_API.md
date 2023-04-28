@@ -6,7 +6,7 @@ Não podemos simplesmente chamá-la diretamente do nosso frontend porque assim *
 
 Mas lembre-se - agora ainda estamos trabalhando com os $18 em créditos que a OpenAI nos deu inicialmente. Mas mesmo assim, não queremos que ninguém pegue nossa chave de API e gaste todos os nossos créditos! Novamente, você pode ver o quanto foi usado [aqui](https://beta.openai.com/account/usage).
 
-Então, o que precisamos fazer é configurar um backend para chamar a OpenAI com segurança. Em seguida, nosso frontend chamaria a nossa função do backend - dessa forma, nossos usuários nunca poderiam acessar nossa chave API.
+Então, o que precisamos fazer é configurar um backend para chamar a OpenAI com segurança. Em seguida, nosso frontend chamaria a nossa função do backend - dessa forma, as pessoas nunca poderiam acessar nossa chave API.
 
 Normalmente, configurar um servidor é uma dor de cabeça enorme.
 
